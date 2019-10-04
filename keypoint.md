@@ -40,4 +40,11 @@
 3. git add .
 4. git commit -m "注释"
 5. 在代码托管平台(github) 新建远程仓库
-6. git push
+6. git remote add origin https://github.com/Xperia-YU/myClass2019.git
+7. git push -u origin master （之后再push 直接git push）
+
+#### 06-项目-准备-新建分支-login组件
+> 新建一个分支 专门写登录功能
+> git branch
+> git checkout -b 分支
+> 新建组件+配置路由
